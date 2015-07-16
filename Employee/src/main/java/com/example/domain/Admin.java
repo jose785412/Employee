@@ -15,5 +15,4 @@ public class Admin extends Employee {
     public Admin(int empId, String name, String essn, double salary) {
         super(empId, name, essn, salary);
     }
-
 }

@@ -24,25 +24,15 @@ public class EmployeeTest {
         Admin emp3 = new Admin (304, "Bill Munroe","108-23-6509",75_002.34);
         Director emp4 = new Director (12, "Susan Wheeler", "099-45-2340",120_567.36,"Global Marketing", 1_000_000.00);
         
-         System.out.println("******************************");
-         emp.printEmployee();
-         System.out.println("--------------------------------------");
-         emp2.printEmployee();
-         System.out.println("--------------------------------------");
-         emp3.printEmployee();
-         System.out.println("--------------------------------------");
-         emp4.printEmployee();
-         System.out.println("******************************");
-         emp.raiseSalary(10_000);
-          emp.printEmployee();
-          System.out.println("--------------------------------------");
-         emp2.printEmployee();
-         System.out.println("---------------------------------------");
-         emp3.printEmployee();
-         System.out.println("---------------------------------------");
-         emp4.raiseSalary(-90_000);
-         emp4.printEmployee();
-         System.out.println("*******************************");
+         System.out.println("*********************");
+        System.out.println( emp.toString());
+         System.out.println("--------------------------");
+        System.out.println( emp2.toString());
+         System.out.println("--------------------------");
+         System.out.println( emp3.toString());
+         System.out.println("--------------------------");
+         System.out.println( emp4.toString());
+         System.out.println("*********************");
     }
 
 }

@@ -53,11 +53,7 @@ public class Employee {
         else
             salary += increased;        
     }
-    
-    public void printEmployee() {
-         System.out.println("ID: " +  empId);
-        System.out.println("Nombre: " + name);
-        System.out.println("Essn: " + essn);
-        System.out.println("Salary: " + NumberFormat.getCurrencyInstance().format((double) getSalary()));
+    public String toString(){
+        return "\nEmpID:   " + getEmpId() + "\nNombre:   " + getName() + "\nEssn:   " + getEssn() + "\nSalario:   " + NumberFormat.getCurrencyInstance().format(getSalary());
     }
 }

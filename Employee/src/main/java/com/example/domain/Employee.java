@@ -54,6 +54,6 @@ public class Employee {
             salary += increased;        
     }
     public String toString(){
-        return "\nEmpID:   " + getEmpId() + "\nNombre:   " + getName() + "\nEssn:   " + getEssn() + "\nSalario:   " + NumberFormat.getCurrencyInstance().format(getSalary());
+        return "\nEmployee ID:   " + getEmpId() + "\nNombre:   " + getName() + "\nSSN:   " + getEssn() + "\nSalario:   " + NumberFormat.getCurrencyInstance().format(getSalary());
     }
 }
